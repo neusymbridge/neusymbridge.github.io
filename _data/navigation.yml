@@ -1,7 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Overview"
+    url:  "/" 
+  - title: "Call for Papers"
+    url: "/call-for-papers.html"  # Link to your call for papers page
+  - title: "Committee"
+    url: "/committee.html"  # Link to your committee page
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
