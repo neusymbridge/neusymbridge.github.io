@@ -11,16 +11,10 @@ search: false
     max-width: 100%;
     font-size: 16px; /* Adjust this value as needed */
 }
-// .organizers {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-// }
-
 .organizers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 10px; /* Adjust the gap as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .organizer {
