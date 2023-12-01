@@ -18,14 +18,17 @@ search: false
 }
 
 .organizer {
-    flex-basis: 22%; /* Adjust this based on your design */
+    flex-basis: 0 0 30%; /* Adjust this based on your design */
+    margin: 10px; /* Ensure this is not too large */
     text-align: center; /* Center-align the name under the photo */
+    padding: 0; /* Or adjust as needed */
+    box-sizing: border-box; /* This ensures padding and borders are included in the width */
     margin-bottom: 20px; /* Space between rows */
 }
 
 .organizer img {
     width: 30%; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 30%; /* Optional: makes the image circular */
+    border-radius: 50%; /* Optional: makes the image circular */
 }
 
