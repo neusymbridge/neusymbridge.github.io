@@ -33,3 +33,6 @@ search: false
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
+.organizer img.custom-position {
+    object-position: center top; /* Adjust as needed */
+}
