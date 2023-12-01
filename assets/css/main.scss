@@ -30,5 +30,6 @@ search: false
     width: 300px; /* Adjust image width */
     height: 300px; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
