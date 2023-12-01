@@ -11,3 +11,21 @@ search: false
     max-width: 100%;
     font-size: 16px; /* Adjust this value as needed */
 }
+.organizers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.organizer {
+    flex-basis: 22%; /* Adjust this based on your design */
+    text-align: center; /* Center-align the name under the photo */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.organizer img {
+    width: 100%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+}
+
