@@ -45,7 +45,7 @@ search: false
 }
 
 .invited_speaker {
-    flex-basis: calc(50% - 20px); /* Adjust for 2 speakers per line, considering margin */
+    flex-basis: calc(40% - 20px); /* Adjust for 2 speakers per line, considering margin */
     margin: 10px; /* Margin around each speaker */
     text-align: center; /* Center-align the name under the photo */
     padding: 0; /* Or adjust as needed */
