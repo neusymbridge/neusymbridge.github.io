@@ -60,3 +60,24 @@ search: false
     margin-bottom: 15px; /* Space between the image and the text */
 }
 
+/* New styles for the title and abstract */
+.invited_speaker h3 {
+    font-size: 1.1em; /* Slightly larger to denote importance */
+    color: #333; /* Dark color for better readability */
+    margin-top: 10px; /* Space from the previous content */
+    margin-bottom: 5px; /* Minimal gap before abstract */
+}
+
+.invited_speaker p {
+    font-size: 0.9em; /* Slightly smaller than usual paragraph text */
+    color: #666; /* Lighter color to differentiate from titles and important info */
+    line-height: 1.5; /* Better readability for longer text */
+    margin: 0 20px; /* Horizontal margins for alignment, no vertical margin to keep close to title */
+}
+
+/* Enhancing abstract specific styling to separate it from other texts */
+.invited_speaker p.abstract {
+    text-align: justify; /* Justifies the abstract text for a clean look */
+    padding-top: 5px; /* Space between the title and the first line of the abstract */
+    border-top: 1px solid #eee; /* Subtle separation from the title */
+}
