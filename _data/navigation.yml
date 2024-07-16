@@ -8,7 +8,7 @@ main:
     url: "/committee.html"  # Link to your committee page
   - title: "Schedule"
     url: "/workshop_program.html"
-  - title: "Select Year: 2024"
+  - title: "Select Year: 2025"
     dropdown: true
     items:
       - title: "2024"
