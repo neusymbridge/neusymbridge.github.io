@@ -8,6 +8,13 @@ main:
     url: "/committee.html"  # Link to your committee page
   - title: "Schedule"
     url: "/workshop_program.html"
+  - title: "Select Year: 2024"
+    dropdown: true
+    items:
+      - title: "2024"
+        url: "/2024.html"
+      - title: "2025"
+        url: "/index.html"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
