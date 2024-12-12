@@ -89,9 +89,39 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
-
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
   </head>
-
+     
   <body class="layout--single">
     <nav class="skip-links">
   <ul>
@@ -169,12 +199,9 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/call-for-papers.html" class="u-url" itemprop="url">Committee
+            <a href="http://localhost:4000/call-for-papers.html" class="u-url" itemprop="url">Accepted Papers
 </a>
           </h1>
-          
-
-
         </header>
       
 
@@ -182,50 +209,86 @@
    
 
 <div class="page__content">
-    <p>We are proud to introduce our committee members.</p>
+    <h2>Oral Papers</h2>
+    <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Authors</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>6</td>
+            <td>CEGRL-TKGR: A Causal Enhanced Graph Representation Learning Framework for Temporal Knowledge Graph Reasoning</td>
+            <td>Jinze Sun, Yongpan Sheng, Lirong He, Yongbin Qin, Ming Liu and Tao Jia</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>From Chain to Tree: Refining Chain-like Rules into Tree-like Rules on Knowledge Graphs</td>
+            <td>Wangtao Sun, Shizhu He, Jun Zhao and Kang Liu</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Bridging Language and Scenes through Explicit 3-D Model Construction</td>
+            <td>Tiansi Dong, Writwick Das and Rafet Sifa</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Neuro-Conceptual Artificial Intelligence: Integrating OPM with Deep Learning to Enhance Question Answering Quality</td>
+            <td>Xin Kang, Veronika Shteyngardt, Yuhan Wang and Dov Dori</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Emergence of symbolic abstraction heads for in-context learning in large language models</td>
+            <td>Ali Al-Saeedi and Aki Harma</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Linking language model predictions to human behaviour on scalar implicatures</td>
+            <td>Yulia Zinova, David Arps, Katharina Spalek and Jacopo Romoli</td>
+        </tr>
+    </tbody>
+</table>
 
-    <h2>Program Committee</h2>
-    <!-- List program chairs here -->
-    <ul><!--a href=""></a-->
-       <li><a href="https://underline.io/speakers/42397-claire-bonial">Claire Bonial</a> - U.S. Army DEVCOM Army Research Laboratory</li>
-        <li><a href="https://chenmeiqii.github.io/">Meiqi Chen</a> - Peking University</li>
-        <li><a href="https://chenxshuo.github.io/">Shuo Chen</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://hejiecui.com/">Hejie Cui</a> - Emory University</li>
-        <li><a href="https://ai.nju.edu.cn/daixinyu/index.htm">Xinyu Dai</a> - Nanjing University</li>
-        <li><a href="https://zifengding.github.io/">Zifeng Ding</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://liberalarts.utexas.edu/linguistics/faculty/kee252">Kathrin Erk</a> - The University of Texas at Austin</li>
-        <li><a href="https://www.linkedin.com/in/dr-irlan-grangel-gonzalez/?originalSubdomain=de">Irlan G Gonzalez</a> - Bosch Center for Artificial Intelligence</li>
-        <li><a href="http://www.nlpr.ia.ac.cn/cip/shizhuhe/">Shizhu He</a> - Institute of Automation, Chinese Academy of Sciences</li>
-        <li><a href="https://zuseschoolrelai.de/people/scientists/bailan-he/">Bailan He</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href=""></a>Jens U. Kreber - Saarland University</li>
-        <li><a href="https://linguistics.indiana.edu/about/faculty/kubler-sandra.html">Sandra Kübler</a> - Indiana University</li>
-        <li><a href="https://hangligit.github.io/">Hang Li</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://www.northumbria.ac.uk/about-us/our-staff/l/honglei-li/">Honglei Li</a> - Northumbria University</li>
-        <li><a href="https://www.linkedin.com/in/yongliu/">Yong Liu</a> - Salesforce</li>
-        <li><a href=""></a>Xinze Liu - Nanyang Technological University</li>
-        <li><a href="https://www.linkedin.com/in/xin-liu-686a7829/">Xin Liu</a> - Amazon Inc.</li>
-        <li><a href="https://www.dbs.ifi.lmu.de/cms/personen/mitarbeiter/liu/index.html">Tong Liu</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://www.essex.ac.uk/people/LONGY19108/Yunfei-Long">Yunfei Long</a> - Essex University</li>
-        <li><a href="https://mayubo2333.github.io/">Yubo Ma</a> - Nanyang Technological University</li>
-        <li><a href="https://phd-ai-society.di.unipi.it/students/emanuele-marconato/">Emanuele Marconato</a> - University of Trento</li>
-        <li><a href="https://www.researchgate.net/profile/Petya-Osenova">Petra Osenova</a> - University of Sofia</li>
-        <li><a href="https://www.linkedin.com/in/parthpadalkar/">Parth Padalkar</a> - University of Texas at Dallas</li>
-        <li><a href="https://www.colorado.edu/faculty/palmer-martha/">Martha Palmer</a> - University of Colorado</li>
-        <li><a href="https://bplank.github.io/">Barbara Plank</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://polytechnic.purdue.edu/profile/taylo108">Julia Rayz</a> - Purdue University</li>
-        <li><a href=""></a>Ryan Riegel - IBM Research</li>
-        <li><a href="https://huggingface.co/timoschick">Timo Schick</a> - Meta AI</li>
-        <li><a href="https://acc.uni.lu/Members/christoph-schommer/">Christoph Schommer</a> - University of Luxembourg</li>
-        <li><a href="https://forangel2014.github.io">Wangtao Sun</a> - Institute of Automation, Chinese Academy of Sciences</li>
-        <li><a href=""></a>Xun Wang - Microsoft Corporation</li>
-        <li><a href="https://zuseschoolrelai.de/people/scientists/jingpei-wu/">Jingpei Wu</a> - Ludwig Maximilian University of Munich</li>
-        <li><a href="https://www.researchgate.net/profile/Kai_Xiong3">Kai Xiong</a> - Harare Institute of Technology</li>
-        <li><a href="https://gblackout.github.io/">Yuan Yang</a> - Georgia Institute of Technology</li>
-        <li><a href="https://cs.stanford.edu/~myasu/">Michihiro Yasunaga</a> - Stanford University</li>
-        <li><a href="https://www.linkedin.com/in/ying-huang-35a313156/?originalSubdomain=sg">Jiahao Ying</a> - Singapore Management University</li>
-        <li><a href=""></a>Ziqian Zeng - South China University of Technology</li>
-        <li><a href=""></a>Hongming Zhang - Tencent AI Lab, Seattle</li>
-        <li><a href="https://www.dbs.ifi.lmu.de/cms/personen/mitarbeiter/zhang/index.html">Gengyuan Zhang</a> - Ludwig Maximilian University of Munich</li>
-    </ul>
-<!--     <p>For questions about the submission process or any other inquiries, please contact [Contact Email].</p>
+<h2>Poster Papers</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Authors</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>4</td>
+            <td>Chain of Knowledge Graph: Information-Preserving Multi-Document Summarization for Noisy Documents</td>
+            <td>Kangil Lee, Jinwoo Jang, Youngjin Lim and Minsu Shin</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Reasoning Knowledge Filter for Logical Table-to-Text Generation</td>
+            <td>Yu Bai, baoqiang liu, Shuang Xue, Fang Cai, Na Ye and Guiping Zhang</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>LAB-KG: A Retrieval-Augmented Generation Method with Knowledge Graphs for Medical Lab Test Interpretation</td>
+            <td>Rui Guo, Barry Devereux, Greg Farnan and Niall McLaughlin</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>VCRMNER: Visual Cue Refinement in Multimodal NER using CLIP Prompts</td>
+            <td>Yu Bai, Lianji Wang, Xiang Liu, Haifeng Chi and Guiping Zhang</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Generative FrameNet: Scalable and Adaptive Frames for Interpretable Knowledge Storage and Retrieval for LLMs Powered by LLMs</td>
+            <td>Harish Tayyar Madabushi, Taylor Hudson and Claire Bonial</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+    
 </div>
