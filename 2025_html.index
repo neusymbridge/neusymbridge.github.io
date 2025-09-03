@@ -1,0 +1,306 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Bridging Neurons and Symbols for Natural Language Processing and Knowledge Graphs Reasoning @ Coling 2025 - NeusymBridge Workshop</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="NeusymBridge Workshop">
+<meta property="og:title" content="Bridging Neurons and Symbols for Natural Language Processing and Knowledge Graphs Reasoning @ Coling 2025">
+<meta property="og:url" content="http://localhost:4000/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/header.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "NeusymBridge",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="NeusymBridge Workshop Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          NeusymBridge Workshop
+          
+        </a>
+        <ul class="visible-links">
+<!--               <li class="masthead__menu-item">
+                <a href="/">Overview</a>
+              </li> -->
+            
+              <li class="masthead__menu-item">
+                <a href="/call-for-papers.html">Call for Papers</a>
+              </li>
+            
+              <li class="masthead__menu-item">
+                <a href="/committee.html">Committee</a>
+              </li>
+
+              <li class="masthead__menu-item">
+                <a href="/accepted_papers.html">Accepted Papers</a>
+              </li>
+
+              <li class="masthead__menu-item">
+                <a href="/workshop_program.html">Program</a>
+              </li>
+            
+              <li class="masthead__menu-item dropdown">
+                <a href="javascript:void(0)" class="dropbtn">2025</a>
+                <div class="dropdown-content">
+                  
+                    <a href="/2024_index.html">2024</a>
+                    <a href="/2025_index.html">2025</a>c
+                    <a href="/index.html">2026</a>
+                  
+                </div>
+              </li>
+            </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #333; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/header.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Bridging Neurons and Symbols for Natural Language Processing and Knowledge Graphs Reasoning @ Coling 2025
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Bridging Neurons and Symbols for Natural Language Processing and Knowledge Graphs Reasoning @ Coling 2025">
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      
+<div class="page__content">
+    <section id="Workshop Scope">
+        <h2>Overview</h2>
+        Recent exploration shows that LLMs, e.g., ChatGPT, may pass the Turing test in human-like chatting but have limited capability even for simple reasoning tasks <a href="https://www.nature.com/articles/d41586-023-02361-7">(Biever, 2023)</a>. It remains unclear whether LLMs reason or not <a href="https://www.science.org/doi/10.1126/science.adj5957"> (Mitchell, 2023)</a>. Human reasoning has been characterized as a dual-process phenomenon (see <a href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-computational-cognitive-sciences/cambridge-handbook-of-computational-cognitive-sciences/E5DBABB50DB8BB4A8FFD9B961D49DA99"> (Sun, 2023)</a> for a general overview) or as mechanisms of fast and slow thinking <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">(Kahneman, 2011)</a>. These findings suggest two directions for exploring neural reasoning: starting from existing neural networks to enhance the reasoning performance with the target of symbolic-level reasoning, and starting from symbolic reasoning to explore its novel neural implementation  <a href="https://arxiv.org/abs/2403.15297"> (Dong et al., 2024)</a>. These two directions will ideally meet somewhere in the middle and will lead to representations that can act as a bridge for novel neural computing, which qualitatively differs from traditional neural networks, and for novel symbolic computing, which inherits the good features of neural computing. Hence the name of our workshop, with a focus on Natural Language Processing and Knowledge Graph reasoning. This workshop promotes research in both directions, particularly seeking novel proposals from the second direction.
+    </section>
+  
+<!--     <p>
+    For paper submissions, please use the following link: 
+    <a href="https://neusymbridge.github.io/call-for-papers.html">Submission Link</a>.
+    </p> -->
+
+
+    <section id="Invited Speakers">
+        <h2>Keynote Speakers</h2>
+      <div class="invited_speaker">
+          <!-- Row 1 -->
+          <div class="invited_speaker">
+            <img src="/assets/images/heng_ji.jpeg" alt="Heng Ji">
+            <p><a href="https://blender.cs.illinois.edu/hengji.html">Heng Ji</a></p>
+            <p>University of Illinois Urbana-Champaign</p>
+            <h3>Symbolic Bridge between Low-Level Visual Perception and High-Level Language Reasoning</h3>
+            <p style="text-align: left;"><strong>Abstract</strong>: Contemporary visual semantic representations predominantly revolve around common objects found in everyday images and videos, ranging from ladybugs and bunnies to airplanes. However, crucial visual cues extend beyond mere object recognition and interaction. They encompass a spectrum of richer semantics, including vector graphics (e.g., angles, mazes), fine-grained attributes and affordances, and scientific charts. Moreover, they entail intricate visual dynamics, such as object interactions, actions, activities and logical reasoning. Regrettably, traditional visual representations relying solely on pixels and regions fail to fully encapsulate these nuances. In this task, I propose to design intermediate symbolic semantic representations to precisely describe and aggregate these low-level visual signals. This augmentation promises to enhance their utility as inputs for large language models or vision-language models, thereby facilitating high-level knowledge reasoning and discovery tasks. I will present several applications range from playful maze solving and fine-grained concept recognition and video activity detection to new drug and material discovery.</p>
+            <p style="text-align: left;"><strong>Bio</strong>: Heng Ji is a professor at Siebel School of Computing and Data Science, and an affiliated faculty member at Electrical and Computer Engineering Department, Coordinated Science Laboratory, and Carl R. Woese Institute for Genomic Biology of University of Illinois Urbana-Champaign. She is an Amazon Scholar. She is the Founding Director of Amazon-Illinois Center on AI for Interactive Conversational Experiences (AICE). She received her B.A. and M. A. in Computational Linguistics from Tsinghua University, and her M.S. and Ph.D. in Computer Science from New York University. Her research interests focus on Natural Language Processing, especially on Multimedia Multilingual Information Extraction, Knowledge-enhanced Large Language Models and Vision-Language Models, and AI for Science. The awards she received include Outstanding Paper Award at ACL2024, two Outstanding Paper Awards at NAACL2024, "Young Scientist" by the World Laureates Association in 2023 and 2024, "Young Scientist" and a member of the Global Future Council on the Future of Computing by the World Economic Forum in 2016 and 2017, "Women Leaders of Conversational AI" (Class of 2023) by Project Voice, "AI's 10 to Watch" Award by IEEE Intelligent Systems in 2013, NSF CAREER award in 2009, PACLIC2012 Best paper runner-up, "Best of ICDM2013" paper award, "Best of SDM2013" paper award, ACL2018 Best Demo paper nomination, ACL2020 Best Demo Paper Award, NAACL2021 Best Demo Paper Award, Google Research Award in 2009 and 2014, IBM Watson Faculty Award in 2012 and 2014 and Bosch Research Award in 2014-2018. She was invited to testify to the U.S. House Cybersecurity, Data Analytics, & IT Committee as an AI expert in 2023. She was selected to participate in DARPA AI Forward in 2023. She served as the associate editor for IEEE/ACM Transaction on Audio, Speech, and Language Processing, and the Program Committee Co-Chair of many conferences including NAACL-HLT2018 and AACL-IJCNLP2022. She was elected as the North American Chapter of the Association for Computational Linguistics (NAACL) secretary 2020-2023.</p>
+          </div>
+        <div class="invited_speaker">
+            <img src="/assets/images/EHinrichs.jpg" alt="Erhard Hinrichs" class="custom-position">
+            <p><a href="https://www.sfs.uni-tuebingen.de/~eh/">Erhard Hinrichs</a></p>
+            <p>University of Tübingen</p>
+            <h3>Large Language Models and the Death of Lexicography?</h3>
+            <p><strong style="text-align: left;">Abstract</strong>: The advent of large language models and generative AI tools has had a profound impact on many scientific disciplines.  In this presentation, I examine their impact on the field of lexicography. Some lexicographers expect the imminent death of lexicography.  They predict that lexicography as a scholarly practise of human experts will soon be replaced by generative AI that will produce lexica by purely automatic means. In order to evaluate these predictions, I will examine in some detail two tasks that need to be addressed by lexicography: (1) the generation of suitable example sentences that illustrate word senses in context, and (2) the automatic lemmatization of complex words as the basis for inclusion in digital lexica.</p>  
+            <p><strong style="text-align: left;">Bio</strong>: Erhard Hinrichs is Senior professor of General and Computational Linguistics and director of the Computational Linguistics research group at Tübingen University, Germany. He obtained a PhD in Linguistics from The Ohio State University in 1985. His previous positions include Research Fellow in Cognitive Science at the Beckman Institute for Advanced Science and Technology and Assistant Professor in Linguistics, both at the University of Illinois, Urbana-Champaign, and Research Scientist in the Artificial Intelligence Department at Bolt Beranek and Newman Laboratories, Cambridge, Mass. His research interests include the computational modelling of language (particularly of morphology, syntax, and semantics) and of language variation with special emphasis on the use of machine learning approaches. His current research focuses on the use of large language models for natural language processing of German. Erhard Hinrichs is an Honorary Lifetime Member of the Linguistic Society of America, an Honorary Member of the Foundation of Logic, Language, and Information, and the recipient of a Medal of Merit from the Bulgarian Academy of Sciences.</p>
+          </div>
+          <div class="invited_speaker">
+            <img src="/assets/images/yansong_feng.jpg" alt="Yansong Fengg">
+            <p><a href="https://sites.google.com/site/ysfeng">Yansong Feng</a></p>
+            <p>Peking University</p>
+            <h3>Can Large Language Models Really Understand Grammar Rules for Low-resource Language Translation?</h3>
+            <p><strong style="text-align: left;">Abstract</strong>: Large language models (LLMs) have shown impressive capabilities in various challenging tasks. Recent studies even try to "teach" LLMs to understand an unseen language thourgh reading dictionaries and grammar books. While promising, it still remains unclear whether LLMs truly comprehend and apply the grammar rules effectively or as we expect. In this talk, we delve into the question of whether LLMs can leverage grammatical rules to improve low-resource language translation. We focus on the Zhuang language, an extremely low-resource language in China, for which we carefully annotate a set of grammatical rules. Our study reveals that current LLMs still struggle to accurately interpret and apply these grammar rules in the context of low-resource language translation. We will discuss the challenges we encountered and potential research directions to bridge this gap.</p>    
+            <p><strong style="text-align: left;">Bio</strong>: Yansong Feng is an associate professor at the Wangxuan Institute of Computer Technology, Peking Uni­versity. Before that, he obtained his PhD and worked as an RA in ICCS (now ILCC) at the University of Edinburgh. His current research focuses on natural language processing, specially harnessing large language models for complex reasoning and supporting intelligent applications in legal domains. He has published over 90 papers in prestigious journals and conferences, including IEEE TPAMI, Artificial Intelligence, ACL, EMNLP, NAACL, and EACL. He was the program co-chair of NLPCC 2021, CCKS 2022 and EMNLP 2023 System Demos. He has served as senior action editor or area chair for ACL ARR and *ACL conferences. Yansong received the IBM Faculty Award in 2014 and 2015, and the IBM Global Shared University Research Award in 2016.</p>
+          </div>
+         <div class="invited_speaker">
+          <!-- Row 2 -->
+          <div class="invited_speaker">
+            <img src="/assets/images/yixin.png" alt="Yixin Cao">
+            <p><a href="https://computing.smu.edu.sg/faculty/profile/6241/yixin-cao">Yixin Cao</a></p>
+            <p>Singapore Management University</p>
+            <h3>Towards complex reasoning by meaningful learning with symbolic & neuron systems</h3>
+            <p><strong style="text-align: left;">Abstract</strong>: Reasoning is a core capability of large language models (LLMs). However, LLMs often perform poorly in complex real-world tasks. We identify two main reasons for this: First, complex tasks often require various reasoning abilities, such as logical reasoning, numerical reasoning, and causal reasoning. How can we teach LLMs the missing reasoning skills or rules? Second, language models are inherently probabilistic and may not always be reliable. The integration of multiple reasoning techniques can exacerbate this unreliability. To address these issues, we introduce a variety of symbolic systems that offer reliable reasoning patterns, which can complement LLMs, forming a hybrid symbolic-neural system. Based on this, we summarize a general learning paradigm—meaningful learning—through a series of works, enabling LLMs to acquire the missing reasoning skills. Meaningful learning emphasizes that reasoning patterns should generalize across different contexts. If correct reasoning is only possible in certain situations, it may indicate that the model is either relying on memorization or has not fully mastered the reasoning skill.</p>    
+            <p><strong style="text-align: left;">Bio</strong>: Cao Yixin, male, is a tenure-track professor at School of Computer Science, Fudan University. He obtained his Ph.D. from Tsinghua University and has held positions as a research fellow, research assistant professor, and assistant professor at the National University of Singapore, Nanyang Technological University, and Singapore Management University. His research areas include natural language processing, knowledge engineering, and multimodal alignment. He has published over 60 papers at international renowned conferences and journals, with more than 6,900 citations on Google Scholar, and has been recognized as an outstanding oral presenter by top international conferences in the field. His research achievements have been awarded the Best Paper/Nomination at two international conferences. He has received Lee Kong Chian Fellowship, Google South Asia & Southeast Asia Awards, the AI2000 Most Influential Scholar honorable mention, and Top 2% Global Scientists of 2024 by Elsevier. Cao Yixin serves as the demonstration program chair or area chair for multiple international conferences, and as a reviewer for international journals.</p>
+          </div>
+          <div class="invited_speaker">
+            <img src="/assets/images/tdong.jpg" alt="Tiansi Dong">
+            <p><a href="https://tiansidr.github.io/">Tiansi Dong</a></p>
+            <p>Fraunhofer IAIS & University of Cambridge</p>
+            <h3>Can Supervised Deep-Learning achieve the rigour of logical reasoning?</h3>
+            <p><strong style="text-align: left;">Abstract</strong>: In this talk, I will argue that supervised deep learning cannot achieve the rigour of syllogistic reasoning, and, thus, will not reach the rigour of logical reasoning. I will spatialise syllogistic statements into part-whole relations between regions and define the neural criterion that is equivalent to the rigour of the symbolic level of syllogistic reasoning. By dissecting Euler Net (EN), a well-designed supervised deep learning system for syllogistic reasoning (reaching 99.8% accuracy on the benchmark dataset), I will show that EN will not reach 100% accuracy, due to the methodology of reasoning through a combination table to establish the mapping from premises to conclusions. As Transformer's Key-Query-Value structure is automatically learned combination tables, they and neural networks built upon them will not reach the rigour of syllogistic reasoning, either. RNNs are Turing complete under unbounded computation time. However, they cannot reach the criterion, as there is no consistent training data that covers all valid syllogistic reasoning types. This talk raises the question: which neural architecture can reach the rigour of syllogistic reasoning?</p>    
+            <p><strong style="text-align: left;">Bio</strong>: Dr. Tiansi Dong is the team lead of <a href="https://www.iais.fraunhofer.de/en/research/artificial-intelligence/neurosymbolic-representation-learning.html" target="_blank">neurosymbolic representation learning</a> at Fraunhofer IAIS, a 
+                <a href="https://www.cst.cam.ac.uk/people/td540" target="_blank">visiting fellow of the Computer Lab</a> at the University of Cambridge, and the primary contact chair of the 
+                <a href="https://neurmad.github.io/" target="_blank">Neural Reasoning and Mathematical Discovery Workshop (New Mad AI Workshop)</a> at AAAI’25.
+            </p>
+          </div>
+    </section>
+
+    <section id="Organizers">
+        <h2>Organizers</h2>
+        <div class="organizers">
+          <!-- Row 1 -->
+          <div class="organizer">
+            <img src="/assets/images/liukang.jpg" alt="Kang Liu">
+            <p><a href="http://www.nlpr.ia.ac.cn/cip/~liukang/">Kang Liu</a></p>
+            <p>Chinese Academy of Sciences</p>
+          </div>
+          <div class="organizer">
+            <img src="/assets/images/YangqiuSong.jpg" alt="Yangqiu Song" class="custom-position">
+            <p><a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a></p>
+            <p>The Hong Kong University of Science and Technology</p>
+          </div>
+          <div class="organizer">
+            <img src="/assets/images/zhenhan.jpg" alt="Zhen Han">
+            <p><a href="https://www.linkedin.com/in/zhen-han-08a769128/?originalSubdomain=uk">Zhen Han</a></p>
+            <p>Amazon Inc.</p>
+          </div>
+        </div>
+        <div class="organizers">
+          <!-- Row 2 -->
+           <div class="organizer">
+            <img src="/assets/images/Rafet.jpg" alt="Rafet Sifa">
+            <p><a href="https://www.b-it-center.de/research-groups/applied-machine-learning-group">Rafet Sifa</a></p>
+            <p>University of Bonn</p>
+          </div>
+           <div class="organizer">
+            <img src="/assets/images/shuzhi_he.jpg" alt="Shizhu He">
+            <p><a href="https://nlpr.ia.ac.cn/cip/shizhuhe/">Shizhu He</a></p>
+            <p>Institute of Automation, Chinese Academy of Sciences</p>
+          </div>
+          <div class="organizer">
+            <img src="/assets/images/yunfei_long.jpg" alt="Yunfei Long">
+            <p><a href="https://www.essex.ac.uk/people/LONGY19108/Yunfei-Long">Yunfei Long</a></p>
+            <p>University of Essex</p>
+          </div>
+        </div>
+    </section>
+</div>
