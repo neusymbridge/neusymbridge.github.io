@@ -38,6 +38,30 @@ search: false
     object-position: center top; /* Adjust as needed */
 }
 
+.invited_speakers2026 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.invited_speaker2026 {
+    flex: 0 0 33%; /* 每行最多 3 个，可以按需要改成 25% -> 每行4个 */
+    margin: 10px;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.invited_speaker2026 img {
+    width: 230px;   /* 你要求的大小 */
+    height: 230px;  /* 保持方形 */
+    border-radius: 8px; /* 可选：圆角 */
+    object-fit: cover;  /* 填满框，不会变形 */
+    margin-bottom: 15px;
+}
+
+
 .invited_speakers {
     display: flex;
     flex-wrap: wrap;
