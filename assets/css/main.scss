@@ -61,6 +61,13 @@ search: false
     margin-bottom: 15px;
 }
 
+.speaker2026 img {
+    width: 230px;
+    height: 230px;
+    border-radius: 80%;
+    object-fit: cover; 
+    margin-bottom: 15px;
+} 
 
 
 .invited_speakers {
@@ -84,7 +91,7 @@ search: false
     object-fit: cover; /* Ensures the image covers the area without distortion */
     margin-bottom: 15px; /* Space between the image and the text */
 }
-
+ 
 
 /* New styles for the title and abstract */
 .invited_speaker h3 {
