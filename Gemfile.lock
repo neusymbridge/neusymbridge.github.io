@@ -280,7 +280,14 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
+  jekyll-gist
+  jekyll-include-cache
+  jekyll-paginate
+  jekyll-sitemap
+  jemoji
   openssl (~> 3.3.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.5.14
