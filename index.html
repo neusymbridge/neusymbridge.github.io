@@ -157,18 +157,28 @@
       
 <div class="page__content">
     <section id="Workshop Scope">
-        <h2>Overview</h2>
-        The success of neural networks is witnessed in various domains, e.g., human-like question-answering, playing games <a href="https://arxiv.org/abs/1911.08265">(Schrittwieser et al. 2020)</a>, solving IMO tasks <a href="https://www.nature.com/articles/s41586-023-06747-5">(Trinh et al. 2024)</a>, code generation <a href="https://arxiv.org/abs/2408.13204">(Zhu et al. 2025)</a>. However, accompanied by these exciting successes are LLMs’ unpredictable behaviours <a href="https://arxiv.org/abs/2308.14752">(Park et al. 2024)</a>, errors in simple abstract reasoning <a href="https://arxiv.org/abs/2207.07051">(Lampinen et al. 2024)</a>, and the irrationality of making correct answers with incorrect explanations <a href="https://arxiv.org/abs/2205.09712">(Creswell, Shanahan, and Higgins 2023)</a>. Though breaking a complex reasoning task into multiple steps improve the reasoning performance <a href="https://arxiv.org/abs/2201.11903">(Wei et al. 2022a)</a> and Code-prompts may significantly improve the causal reasoning performace of LLMs <a href="https://aclanthology.org/2025.cl-2.3/">(Liu et al. 2025b)</a>, it remains unclear whether they can achieve the rigour of symbolic reasoning or, more radical, whether LLMs reason at all <a href="https://www.science.org/doi/10.1126/science.adj5957">(Mitchell 2023)</a>. 
-        This brings unpredictable risks to our society <a href="https://www.science.org/doi/10.1126/science.adn0117">(Bengio et al. 2024)</a>. 
-        Accompanied by the first neural network, Sphere Neural Network, which achieves the rigour of syllogistic reasoning without training data <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33262">(Dong, Jamnik, and Liò 2025)</a> and by the arguement on the oversimplification of vector embeddings <a href="https://www.researchgate.net/publication/412097465_Non-Zero_Radius_The_Missing_Component_of_Neural_Networks">(Dong, Jamnik, and Liò 2026)</a>, this workshop intrigues theorists and practitioners in LLMs and KG reasoning to reconsider various problems, for example, using novel neural-symbolic collaborative distillation (NesyCD) method for learning the complex reasoning abilities of LLMs <a href="https://arxiv.org/abs/2409.13203">(Liao et al. 2025)</a>. 
-        This workshop provides a platform for AI/ML practitioners and theorists to find new paths towards reliable and safe AI.
+        <h2>Overview</h2> 
+        Neural networks have achieved remarkable success across a broad range of domains, including human-like question answering, game playing <a href="https://arxiv.org/abs/1911.08265">(Schrittwieser et al. 2020)</a>, solving International Mathematical Olympiad problems <a href="https://www.nature.com/articles/s41586-023-06747-5">(Trinh et al. 2024)</a>, and code generation <a href="https://arxiv.org/abs/2408.13204">(Zhu et al. 2025)</a>. 
+        Despite these advances, large language models (LLMs) continue to display unpredictable behaviour <a href="https://arxiv.org/abs/2308.14752">(Park et al. 2024)</a>, struggle with seemingly simple abstract-reasoning tasks <a href="https://arxiv.org/abs/2207.07051">(Lampinen et al. 2024)</a>, and occasionally produce correct answers supported by incorrect explanations <a href="https://arxiv.org/abs/2205.09712">(Creswell, Shanahan, and Higgins 2023)</a>.
+        <br><br>
+Decomposing complex problems into intermediate steps can improve reasoning performance <a href="https://arxiv.org/abs/2201.11903">(Wei et al. 2022a)</a>, while code-based prompting may significantly strengthen the causal-reasoning capabilities of LLMs <a href="https://aclanthology.org/2025.cl-2.3/">(Liu et al. 2025b)</a>. 
+Nevertheless, it remains unclear whether these models can achieve the rigour of symbolic reasoning—or, more fundamentally, whether LLMs genuinely reason at all <a href="https://www.science.org/doi/10.1126/science.adj5957">(Mitchell 2023)</a>. This uncertainty raises important concerns about the potentially serious and unpredictable risks that these systems may pose to society <a href="https://www.science.org/doi/10.1126/science.adn0117">(Bengio et al. 2024)</a>.
+Recent developments invite researchers to reconsider the foundations of neural reasoning. The Sphere Neural Network demonstrates rigorous syllogistic reasoning without relying on training data <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33262">(Dong, Jamnik, and Liò 2025)</a>, while related work argues that conventional vector embeddings may oversimplify conceptual representations by omitting non-zero radii <a href="https://www.researchgate.net/publication/412097465_Non-Zero_Radius_The_Missing_Component_of_Neural_Networks">(Dong, Jamnik, and Liò 2026)</a>. Together, these advances motivate closer collaboration among researchers and practitioners working on LLMs, knowledge graphs, and neuro-symbolic reasoning.
+ <br><br>
+This workshop will encourage participants to explore new approaches to reliable and creative reasoning. Relevant research directions include neural-symbolic collaborative distillation (NesyCD), which seeks to transfer the complex reasoning capabilities of LLMs <a href="https://arxiv.org/abs/2409.13203">(Liao et al. 2025)</a>, and neural-symbolic unification for applications such as trustworthy <a href="https://www.turing.ac.uk/research/research-projects/trustworthy-digital-identity">digital identity systems</a>. 
+Promising directions include <a href="https://www.cst.cam.ac.uk/accelerate">scientific discovery</a> and <a href="https://dtai.cs.kuleuven.be/events-seminars/2023/neuro-symbolic-creative-artificial-intelligence-for-humor">humour research</a>. In drug discovery, for example, <a href="https://neurips.cc/virtual/2024/102533">SynFlowNet</a> embeds symbolic chemical-reaction rules and available building blocks within a neural generative framework, enabling the model to generate diverse molecules together with feasible synthesis pathways. 
+This integration illustrates how symbolic domain knowledge can guide neural models towards scientifically valid and practically useful solutions.
+Humour requires contextual understanding, logical inference, and the recognition of incongruity. Combining the pattern-recognition capabilities of neural models with the interpretability and control of symbolic systems could support more reliable humour detection and generation.
+These diverse forms of reasoning may share a common basis in spatial cognition. In <a href="https://www.youtube.com/watch?v=t6e9tSswam8">Mind in Motion: How Action Shapes Thought</a>, Barbara Tversky argues that spatial thinking provides a foundation for abstract thought, enabling people to organise and reason about concepts, actions, relationships, and transformations. 
+<br><br>Building on this perspective, the workshop will investigate whether logical, causal, creative, linguistic, and social reasoning can be understood and represented within a unified spatial framework and implemented in the vector space. Our objective is to develop a neural model capable of simulating these diverse reasoning processes through learned spatial representations and transformations, while integrating symbolic structures to provide rigour, interpretability, and control.
+         
+            
         <h2>Topics</h2> 
         This workshop aims to enable an exchange of ideas to enhance the determinacy of neural networks in NLP and knowledge graph reasoning, and to promote AI’s explainability, reliability, and safety. 
         Topics include, but are not limited to (1) Neural-symbolic knowledge representation; (2) Knowledge introspection and localization in LLMs; (3) Symbolic knowledge induction and distillation from LLMs; 
         (4) Neural-symbolic collaborative reasoning; (5) Neural-symbolic distillation and model compression; (6) Tool graphs, procedural knowledge, skills and capability evolution; 
         (7) Benchmarks, datasets, and evaluation methodologies for measuring neural-symbolic reasoning, knowledge consistency, faithfulness, interpretability, generalization, and reliability; 
-        (8) Hybrid neral-symbolic systems for scientific discovery, healthcare, education, law, robotics, autonomous agents, manufacturing, business automation including sales, marketing, customer support and services, data center and cloud operations,
-and other knowledge-intensive applications.
+        (8) Hybrid neral-symbolic systems for autonomous agents, digital economy,  education, healthcare, humour, law, manufacturing, robotics, scientific discovery, and other knowledge-intensive applications.
     </section>
   
 <!--     <p>
@@ -186,37 +196,39 @@ and other knowledge-intensive applications.
             <p><a href="https://www.turing.ac.uk/people/researchers/anthony-cohn">Tony Cohn</a></p>
             <p>Alan Turing Institute & University of Leeds, UK</p>
           </div>
-          <div class="invited_speaker2026">
-            <img src="/assets/images/agnieszka.jpg" alt="Agnieszka Piotrowska"">
-            <p><a href="https://agnieszkapiotrowska.co.uk/">Agnieszka Piotrowska</a></p>
-            <p>University of Staffordshire, UK </p>
-          </div>
+           <div class="invited_speaker2026">
+              <img src="/assets/images/kiki.jpg" alt="Christian F. Hempelmann">
+              <p><a href="https://www.etamu.edu/people/christian-f-hempelmann/">Christian F. Hempelmann</a></p>
+              <p>East Texas A&M University, USA</p>
+            </div>
+         
           <!--div class="invited_speaker2026">
             <img src="/assets/images/Yulan_He.jpg" alt="Yulan He"">
             <p><a href="https://www.kcl.ac.uk/people/yulan-he">Yulan He</a></p>
             <p>King’s College London</p>
           </div-->
         </div>
-        <div class="invited_speakers2026">
+       <div class="invited_speakers2026">< 
+        <div class="invited_speaker2026">
+            <img src="/assets/images/agnieszka.jpg" alt="Agnieszka Piotrowska"">
+            <p><a href="https://agnieszkapiotrowska.co.uk/">Agnieszka Piotrowska</a></p>
+            <p>University of Staffordshire, UK </p>
+          </div> 
           <!-- Row 2 -->
            <div class="invited_speaker2026">
             <img src="/assets/images/cristian.jpg" alt="Cristian Taccioli">
             <p><a href="https://www.unipd.it/en/contatti/cristian.taccioli">Cristian Taccioli</a></p>
             <p>University of Padova, Italy<br></p>
           </div>
-          <div class="invited_speaker2026">
-            <img src="/assets/images/wenpeng.jpeg" alt="Wenpeng Yin">
-            <p><a href="hhttps://www.wenpengyin.org/">Wenpeng Yin</a></p>
-            <p>Penn State University, USA</p>
-          </div>
+         
         </div>
         <div class="invited_speakers2026">
           <!-- Row 3 --> 
             <div class="invited_speaker2026">
-              <img src="/assets/images/kiki.jpg" alt="Christian F. Hempelmann">
-              <p><a href="https://www.etamu.edu/people/christian-f-hempelmann/">Christian F. Hempelmann</a></p>
-              <p>East Texas A&M University, USA</p>
-            </div>
+            <img src="/assets/images/wenpeng.jpeg" alt="Wenpeng Yin">
+            <p><a href="hhttps://www.wenpengyin.org/">Wenpeng Yin</a></p>
+            <p>Penn State University, USA</p>
+          </div>
             
         </div>
         
@@ -244,12 +256,12 @@ and other knowledge-intensive applications.
             <p>Queen Mary University of London, UK</p>
           </div>
           <div class="organizer">
-            <img src="/assets/images/liangyang.jpg" alt=Liang Yang">
+            <img src="/assets/images/yangliang.jpg" alt=Liang Yang">
             <p><a href="https://faculty.dlut.edu.cn/yangliang1/en/index.htm">Liang Yang</a></p>
             <p>Dalian University of Technology, China</p>
           </div>
            <div class="organizer">
-            <img src="/assets/images/shuzhi_he.jpg" alt="Shizhu He">
+            <img src="/assets/images/shizhu_he.jpg" alt="Shizhu He">
             <p><a href="https://nlpr.ia.ac.cn/cip/shizhuhe/">Shizhu He</a></p>
             <p>Chinese Academy of Sciences, China</p>
             </div>
